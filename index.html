@@ -1,0 +1,1170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080d17">
+
+    <title>R Jude Ryan Cardoza | Mechatronics & EV Engineer</title>
+
+    <meta name="description"
+          content="Portfolio of R Jude Ryan Cardoza, Mechatronics and Automation graduate specializing in electric vehicle powertrains, automotive systems, ADAS, and engineering design.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Logo links are embedded in this HTML.
+           The rest of the website styling remains in style.css. */
+
+        .institution-logo-wrapper {
+            width: 68px;
+            height: 68px;
+            min-width: 68px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            border-radius: 12px;
+            background: #ffffff;
+            padding: 7px;
+        }
+
+        .institution-logo {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .logo-fallback {
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            color: #0789ff;
+            font-weight: 800;
+            font-size: 17px;
+        }
+
+        .institution-heading {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .coursework-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 9px;
+            padding: 0;
+            list-style: none;
+        }
+
+        .coursework-list li {
+            border: 1px solid rgba(0, 153, 255, 0.3);
+            border-radius: 20px;
+            padding: 8px 13px;
+            font-size: 0.9rem;
+        }
+
+        .patent-number {
+            overflow-wrap: anywhere;
+        }
+
+        [data-view][hidden] {
+            display: none !important;
+        }
+
+        .nav-link[aria-current="page"] {
+            color: #35a7ff;
+        }
+
+        .project-card img,
+        .experience-card img,
+        .education-card img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+
+            <a href="#home" class="logo" data-page="home">
+                <span class="logo-mark">RJ</span>
+                <span>R Jude Ryan Cardoza</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                type="button"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+                aria-controls="mainNav">
+                ☰
+            </button>
+
+            <div class="nav-links" id="mainNav">
+                <a href="#home" class="nav-link" data-page="home"
+                   aria-current="page">Home</a>
+
+                <a href="#about" class="nav-link" data-page="about">About</a>
+
+                <a href="#experience" class="nav-link"
+                   data-page="experience">Experience</a>
+
+                <a href="#education" class="nav-link"
+                   data-page="education">Education</a>
+
+                <a href="#projects" class="nav-link"
+                   data-page="projects">Projects</a>
+
+                <a href="#patents" class="nav-link"
+                   data-page="patents">Patents</a>
+
+                <a href="#contact" class="nav-link"
+                   data-page="contact">Contact</a>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HOME
+        ========================== -->
+
+        <section class="page-section active" id="home" data-view="home">
+
+            <div class="hero section-container">
+
+                <div class="hero-content">
+
+                    <p class="eyebrow"></p>
+
+                    <h1>
+                        R Jude Ryan<br>
+                        <span>Cardoza</span>
+                    </h1>
+
+                    <h2>EV Powertrain Mastery Intern</h2>
+
+                    <p class="hero-description">
+                        Mechatronics Undergraduate from VIT Chennai passionate about
+                        Electric Vehicle ,Vehicle dynamics and 
+                        ADAS.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary"
+                           data-page="projects">Explore My Projects</a>
+
+                        <a href="#contact" class="btn btn-secondary"
+                           data-page="contact">Contact Me</a>
+                    </div>
+
+                    <div class="hero-tags">
+                        <span>Electric Vehicles</span>                       
+                        <span>Vehicle dynamics</span>
+                        <span>ADAS</span>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-visual">
+
+                    <!-- Keep your existing static electric-car image here.
+                         Change the path if your image has a different name. -->
+
+                    <img
+                        src="assets/images/electric-car-motion.png"
+                        alt="Electric car representing automotive engineering"
+                        class="hero-car-image"
+                        onerror="this.style.display='none'; this.nextElementSibling.hidden=false;">
+
+                    <div class="hero-image-fallback" hidden>
+                        <span>EV</span>
+                        <p>Electric Vehicle Engineering</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="section-container quick-facts">
+
+                <div class="fact-card">
+                    <h3>Qualification</h3>
+                    <p>B.Tech Mechatronics & Automation</p>
+                </div>
+
+
+            </div>
+
+        </section>
+
+    
+
+<!-- =========================
+     ABOUT
+========================== -->
+
+<section class="page-section" id="about" data-view="about">
+
+    <div class="section-container">
+
+        <!-- PAGE HEADER -->
+        <div class="section-heading about-hero">
+            <p class="eyebrow">GET TO KNOW ME</p>
+            <h1>About <span></span></h1>
+            <p>My background, personal details, interests, and engineering direction.</p>
+        </div>
+
+        <!-- PERSONAL DETAILS -->
+        <div class="section-heading subsection-heading">
+            <h2>Personal Details</h2>
+        </div>
+
+        <div class="about-personal-layout">
+
+            <!-- PROFILE PHOTO -->
+            <div class="content-card profile-card">
+
+                <div class="profile-photo-frame">
+                    <img
+                        src="assets/images/Ryan 2026.jpeg"
+                        alt="R Jude Ryan Cardoza"
+                        class="profile-photo"
+                    >
+                </div>
+
+                <h3>R Jude Ryan Cardoza</h3>
+                <p class="profile-designation">
+                    Mechatronics Undergraduate
+                </p>
+
+                <div class="profile-tags">
+                    <span>Automotive</span>
+                    <span>Electric Vehicles</span>
+                    <span>ADAS</span>
+                </div>
+
+            </div>
+
+            <!-- PERSONAL INFORMATION -->
+            <div class="content-card personal-details-card">
+
+                <div class="detail-item">
+                    <span class="detail-icon">👤</span>
+                    <div class="detail-content">
+                        <span class="detail-label">Full Name</span>
+                        <span class="detail-value">R Jude Ryan Cardoza</span>
+                    </div>
+                </div>
+
+                <div class="detail-item">
+                    <span class="detail-icon">🎂</span>
+                    <div class="detail-content">
+                        <span class="detail-label">Date of Birth</span>
+                        <span class="detail-value">19 June 2004</span>
+                    </div>
+                </div>
+
+                <div class="detail-item">
+                    <span class="detail-icon">🌐</span>
+                    <div class="detail-content">
+                        <span class="detail-label">Nationality</span>
+                        <span class="detail-value">Indian</span>
+                    </div>
+                </div>
+
+                <div class="detail-item">
+                    <span class="detail-icon">📍</span>
+                    <div class="detail-content">
+                        <span class="detail-label">Native Place</span>
+                        <span class="detail-value">Thoothukudi, Tamil Nadu, India</span>
+                    </div>
+                </div>
+
+                <div class="detail-item">
+                    <span class="detail-icon">🏠</span>
+                    <div class="detail-content">
+                        <span class="detail-label">Permanent Address</span>
+                        <span class="detail-value">
+                            20/76A, Roche Colony 3rd Street,<br>
+                            Near SRM Hotel, Thoothukudi
+                        </span>
+                    </div>
+                </div>
+
+                <div class="detail-item">
+                    <span class="detail-icon">📌</span>
+                    <div class="detail-content">
+                        <span class="detail-label">Current Address</span>
+                        <span class="detail-value">
+                            20/76A, Roche Colony 3rd Street,<br>
+                            Near SRM Hotel, Thoothukudi
+                        </span>
+                    </div>
+                </div>
+
+                <div class="detail-item">
+                    <span class="detail-icon">✉️</span>
+                    <div class="detail-content">
+                        <span class="detail-label">Pincode</span>
+                        <span class="detail-value">628001</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- PROFESSIONAL PROFILE -->
+        <div class="section-heading subsection-heading">
+            <h2>Professional Profile</h2>
+        </div>
+
+        <div class="content-card professional-profile-card">
+
+            <div class="professional-profile-text">
+                <p>
+                    I am a <strong>Mechatronics graduate
+                    </strong> from VIT Chennai, currently pursuing
+                    EV Powertrain Mastery training at VisionAstraa EV Academy.
+                    I am passionate about automotive engineering, with a
+                    strong interest in electric vehicle powertrain systems,
+                    vehicle dynamics, and Advanced Driver Assistance Systems
+                    (ADAS).
+                </p>
+
+                <p>
+                    My goal is to strengthen my engineering fundamentals and
+                    contribute to the development of innovative electric
+                    vehicles and intelligent mobility solutions.
+                </p>
+            </div>
+
+            <div class="profile-focus-list">
+
+                <div class="focus-item">
+                    <span class="focus-icon">⚡</span>
+                    <span>Electric Mobility</span>
+                </div>
+
+                <div class="focus-item">
+                    <span class="focus-icon">⚙️</span>
+                    <span>Automotive Systems</span>
+                </div>
+
+                <div class="focus-item">
+                    <span class="focus-icon">🎯</span>
+                    <span>ADAS</span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- TECHNICAL INTERESTS -->
+        <div class="section-heading subsection-heading">
+            <h2>Technical Interests</h2>
+            <p>Engineering domains that drive my curiosity and career goals.</p>
+        </div>
+
+        <div class="skills-grid about-skills-grid">
+
+            <article class="skill-card interest-ev">
+                <div class="interest-icon">⚡</div>
+                <h3>Electric Vehicles</h3>
+                <p>
+                    EV powertrains, traction motors, battery systems,
+                    power electronics, and vehicle architecture.
+                </p>
+                <span class="interest-number">01</span>
+            </article>
+
+            <article class="skill-card interest-auto">
+                <div class="interest-icon">🏎️</div>
+                <h3>Automotive Engineering</h3>
+                <p>
+                    Vehicle dynamics, braking systems, automotive
+                    components, and vehicle integration.
+                </p>
+                <span class="interest-number">02</span>
+            </article>
+
+            <article class="skill-card interest-adas">
+                <div class="interest-icon">🎯</div>
+                <h3>ADAS</h3>
+                <p>
+                    Driver assistance systems, scenario testing,
+                    and simulation-based vehicle validation.
+                </p>
+                <span class="interest-number">03</span>
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+       
+<!-- =========================
+     EXPERIENCE
+========================== -->
+
+<section class="page-section" id="experience" data-view="experience">
+
+    <div class="section-container">
+
+        <div class="section-heading">
+            <p class="eyebrow">PROFESSIONAL JOURNEY</p>
+            <h1>My <span>Experience</span></h1>
+            <p>Industry exposure, EV learning, and engineering teamwork.</p>
+        </div>
+
+        <div class="timeline">
+
+            <!-- VISIONASTRAA -->
+
+            <article class="timeline-item experience-card">
+
+                <div class="institution-heading">
+
+                    <div class="institution-logo-wrapper">
+                        <img
+                            src="assets/images/1722661475946.jpeg"
+                            alt="VisionAstraa EV Academy logo"
+                            class="institution-logo"
+                            loading="lazy"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+                        <div class="logo-fallback" style="display:none;">VA</div>
+                    </div>
+
+                    <div>
+                        <h2>EV Powertrain Mastery Intern</h2>
+                        <h3>VisionAstraa EV Academy</h3>
+                        <p class="timeline-date">October 2026 – Present</p>
+                        <p class="timeline-location">Bengaluru, India</p>
+                    </div>
+
+                </div>
+
+                <ul>
+                    <li>
+                        Developing technical knowledge of electric
+                        vehicle powertrain architecture and operation.
+                    </li>
+                    <li>
+                        Studying traction motors, battery systems,
+                        inverters, and associated vehicle components.
+                    </li>
+                    <li>
+                        Building a foundation in EV system analysis
+                        and automotive engineering principles.
+                    </li>
+                </ul>
+
+            </article>
+
+
+            <!-- HYUNDAI -->
+
+            <article class="timeline-item experience-card">
+
+                <div class="institution-heading">
+
+                    <div class="institution-logo-wrapper">
+                        <img
+                            src="assets/images/images.png"
+                            alt="Hyundai logo"
+                            class="institution-logo"
+                            loading="lazy"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+                        <div class="logo-fallback" style="display:none;">HY</div>
+                    </div>
+
+                    <div>
+                        <h2>Student Intern Trainee</h2>
+                        <h3>Peeyesyem Hyundai Motors</h3>
+                        <p class="timeline-date">May 2025 – June 2025</p>
+                        <p class="timeline-location">Thoothukudi, Tamil Nadu</p>
+                    </div>
+
+                </div>
+
+                <p>
+                    Automotive industry internship experience at
+                    Peeyesyem Hyundai Motors.
+                </p>
+
+                <!-- HYUNDAI CERTIFICATE BUTTON -->
+
+                <div class="certificate-actions">
+                    <a
+                        href="assets/images/Hyundai Internship Certificate.jpg"
+                        class="btn btn-primary certificate-btn"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <span aria-hidden="true">📄</span>
+                        View Internship Certificate
+                    </a>
+                </div>
+
+            </article>
+
+
+            <!-- TEAM SAKSHAM INTERNATIONAL -->
+
+            <article class="timeline-item experience-card">
+
+                <div class="institution-heading">
+
+                    <div class="institution-logo-wrapper">
+                        <img
+                            src="assets/images/teamsakshaminternational_logo.jpeg"
+                            alt="Team Saksham International logo"
+                            class="institution-logo"
+                            loading="lazy"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+                        <div class="logo-fallback" style="display:none;">TS</div>
+                    </div>
+
+                    <div>
+                        <h2>Brakes Engineer</h2>
+                        <h3>Team Saksham International, VIT Chennai</h3>
+                        <p class="timeline-date">April 2024 – July 2025</p>
+                    </div>
+
+                </div>
+
+                <p>
+                    Contributed to student engineering team activities
+                    focused on braking systems and vehicle engineering.
+                    Participated in Mega ATV Championship 2025 conducted during April 11th-13th 2025
+                </p>
+
+                <!-- TEAM SAKSHAM CERTIFICATE BUTTON -->
+
+                <div class="certificate-actions">
+                    <a
+                        href="assets/images/1745931767412.jpeg"
+                        class="btn btn-primary certificate-btn"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <span aria-hidden="true">📄</span>
+                        View Participation Certificate
+                    </a>
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+        
+        <!-- =========================
+             EDUCATION
+        ========================== -->
+
+        <section class="page-section" id="education" data-view="education">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">ACADEMIC BACKGROUND</p>
+                    <h1>My <span>Education</span></h1>
+                    <p>The academic foundation behind my engineering journey.</p>
+                </div>
+
+
+                <!-- B.TECH -->
+
+                <article class="content-card education-card">
+
+                    <div class="institution-heading">
+
+                        <div class="institution-logo-wrapper">
+                            <img
+                                src="assets/images/VIT_Chennai_New_Logo.png"
+                                alt="VIT Chennai website icon"
+                                class="institution-logo"
+                                loading="lazy"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+                            <div class="logo-fallback" style="display:none;">VIT</div>
+                        </div>
+
+                        <div>
+                            <p class="eyebrow">UNDERGRADUATE DEGREE</p>
+                            <h2>B.Tech in Mechatronics and Automation</h2>
+                            <h3>Vellore Institute of Technology, Chennai</h3>
+                            <p class="timeline-date">September 2022 – April 2026</p>
+                            <p>Graduated: 16 August 2026</p>
+                        </div>
+
+                    </div>
+
+                    <p>
+                        An interdisciplinary engineering degree combining
+                        mechanical engineering, electronics, automation,
+                        control systems, and intelligent machines.
+                    </p>
+
+                    <h3>University Coursework</h3>
+
+
+                    <ul class="coursework-list">
+                        <li>Engineering Mechanics</li>
+                        <li>Engineering Design Visualization</li>
+                        <li>Engineering Thermodynamics</li>
+                        <li>Solid and Fluid Mechanics</li>
+                        <li>Manufacturing Processes</li>
+                        <li>Machine Drawing</li>
+                        <li>Analog and Digital Electronics</li>
+                        <li>Signals and Systems</li>
+                        <li>Electrical Machines and Drives</li>
+                        <li>Control Systems</li>
+                        <li>Kinematics and Dynamics of machines</li>
+                        <li>Computer Integrated Manufacturing</li>
+                        <li>Microprocessors and Microcontrollers</li>
+                        <li>Sensors and Instrumentation</li>
+                        <li>Fluid Power Systems</li>
+                        <li>Design of Machine Elements</li>
+                        <li>Industrial Automation</li>
+                        <li>Industrial Robotics</li>
+                        <li>Mechatronic Systems Design</li>
+                        <li>Driver Assistance Systems and Autonomous Vehicles</li>
+                    </ul>
+
+                </article>
+
+
+                <!-- HSC -->
+
+                <article class="content-card education-card">
+
+                    <div class="institution-heading">
+
+                        <div class="institution-logo-wrapper">
+                            <img
+                                src="assets/images/St-Thomas.M.H.S.S-Logo-web.png"
+                                alt="School logo placeholder"
+                                class="institution-logo"
+                                loading="lazy"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+                            <div class="logo-fallback" style="display:none;">ST</div>
+                        </div>
+
+                        <div>
+                            <h2>Higher Secondary Certificate (HSC)</h2>
+                            <h3>Grade 12</h3>
+                            <p>St. Thomas Matriculation Higher Secondary School</p>
+                            <p class="timeline-date">June 2021 – May 2022</p>
+                            <p>Thoothukudi, Tamil Nadu</p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SSLC -->
+
+                <article class="content-card education-card">
+
+                    <div class="institution-heading">
+
+                        <div class="institution-logo-wrapper">
+                            <img
+                                src="assets/images/St-Thomas.M.H.S.S-Logo-web.png"
+                                alt="School logo placeholder"
+                                class="institution-logo"
+                                loading="lazy"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+                            <div class="logo-fallback" style="display:none;">ST</div>
+                        </div>
+
+                        <div>
+                            <h2>Secondary School Leaving Certificate (SSLC)</h2>
+                            <h3>Grade 10</h3>
+                            <p>St. Thomas Matriculation Higher Secondary School</p>
+                            <p class="timeline-date">June 2019 – May 2020</p>
+                            <p>Thoothukudi, Tamil Nadu</p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROJECTS
+        ========================== -->
+
+        <section class="page-section" id="projects" data-view="projects">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">ENGINEERING & INNOVATION</p>
+                    <h1>My <span>Projects</span></h1>
+                    <p>Selected academic engineering projects.</p>
+                </div>
+
+            
+
+<!-- PROJECT 1 -->
+<article class="content-card project-card">
+    <p class="eyebrow">Final Year Capstone Project</p>
+
+    <details class="project-expand">
+        <summary class="project-title-toggle">
+            <h2>Testing and Validation of ADAS for Indian Traffic Scenario</h2>
+            <span class="project-click-hint">
+                Click to view project details
+            </span>
+        </summary>
+
+        <div class="project-expanded-content">
+            <p class="timeline-date">July 2025 – April 2026</p>
+
+            <p><strong>Institution:</strong> VIT Chennai</p>
+
+            <p>
+                Academic project focused on testing and validating
+                Advanced Driver Assistance Systems under Indian traffic
+                scenarios using automotive simulation tools.
+            </p>
+
+            <h3>Software &amp; Tools Used</h3>
+            <ul class="coursework-list">
+                <li>IPG CarMaker</li>
+                <li>Software-in-the-Loop (SIL)</li>
+                <li>Driver-in-the-Loop (DIL)</li>
+            </ul>
+
+            <div class="project-media">
+                <h3>Project Gallery</h3>
+
+                <div class="project-media-grid">
+                    <figure class="project-media-item">
+                        <img
+                            src="assets/images/Scenario Generation.png"
+                            alt="ADAS simulation in IPG CarMaker"
+                            loading="lazy"
+                        >
+                        <figcaption>ADAS Simulation</figcaption>
+                    </figure>
+
+                    <figure class="project-media-item">
+                        <img
+                            src="assets/images/Scenarios.png"
+                            alt="Indian traffic scenario validation"
+                            loading="lazy"
+                        >
+                        <figcaption>Traffic Scenario Validation</figcaption>
+                    </figure>
+                </div>
+
+                <div class="project-video-wrapper">
+                    <h3>Project Demonstration</h3>
+                    <video class="project-video"
+                           controls
+                           preload="metadata"
+                           playsinline>
+                        <source
+                            src="assets/videos/DIL testing.mp4"
+                            type="video/mp4"
+                        >
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </details>
+</article>
+
+
+                
+
+                <!-- PROJECT 2 -->
+
+                <article class="content-card project-card">
+
+                    <p class="eyebrow"></p>
+
+                    <h2>
+                        Design and Fabrication of a Bi-Directional Ammikal
+                        Grinding Machine Using Linkage Mechanism
+                    </h2>
+
+                    <p class="timeline-date">July 2025 – March 2026</p>
+
+                    <p><strong>Institution:</strong> VIT Chennai</p>
+
+                    <p>
+                        Designed and developed a bi-directional grinding
+                        machine concept using a linkage mechanism, with
+                        CAD modelling, motion analysis, and prototype work.
+                    </p>
+
+                    <h3>Software & Tools Used</h3>
+
+                    <ul class="coursework-list">
+                        <li>SOLIDWORKS</li>
+                        <li>Motion Analysis</li>
+                        <li>CAD Modelling</li>
+                        <li>3D-Printed Prototype</li>
+                        <li>Servo Motor</li>
+                        <li>Linkage Mechanism</li>
+                    </ul>
+
+                </article>
+
+
+                
+
+<!-- PROJECT 3 -->
+<article class="content-card project-card">
+
+    <p class="eyebrow"></p>
+
+    <details class="project-expand">
+        <summary class="project-title-toggle">
+            <h2>Intelligent Night Vision Systems Detecting Bicycles</h2>
+            <span class="project-click-hint">
+                Click to view project details
+            </span>
+        </summary>
+
+        <div class="project-expanded-content">
+
+            <p class="timeline-date">July 2025 – November 2025</p>
+
+            <p>
+                Academic project investigating bicycle detection in low-light
+                driving scenarios using computer vision and vehicle simulation.
+                The project explores object detection to improve the visibility
+                of bicycles in night-time driving conditions.
+            </p>
+
+            <h3>Software &amp; Tools Used</h3>
+
+            <ul class="coursework-list">
+                <li>YOLOv4</li>
+                <li>MATLAB</li>
+                <li>IPG CarMaker</li>
+            </ul>
+
+            <!-- PROJECT VIDEO -->
+            <div class="night-vision-video-section">
+                <h3>Project Demonstration</h3>
+
+                <video
+                    class="night-vision-video"
+                    controls
+                    preload="metadata"
+                    playsinline
+                >
+                    <source
+                        src="assets/videos/MV.mp4"
+                        type="video/mp4"
+                    >
+
+                    Your browser does not support HTML5 video.
+
+                    <a href="assets/videos/MV.mp4">
+                        Open the project demonstration video
+                    </a>.
+                </video>
+            </div>
+
+        </div>
+    </details>
+
+</article>
+        
+
+</section>
+
+
+<!-- =========================
+     PATENTS
+========================== -->
+<section class="page-section" id="patents" data-view="patents" hidden>
+    <div class="section-container">
+
+        <div class="section-heading">
+            <p class="eyebrow">INTELLECTUAL PROPERTY</p>
+            <h1>Patent <span>Application</span></h1>
+            <p>Engineering innovation, design documentation, and prototype demonstration.</p>
+        </div>
+
+        <article class="content-card patent-card">
+            <p class="eyebrow">PATENT APPLICATION</p>
+
+            <details class="patent-expand">
+                <summary class="patent-title-toggle">
+                    <h2>Automated Bi-Directional Ammikal Grinding Stone Using Linkage Mechanism</h2>
+                    <span class="patent-click-hint">Click to view patent documents</span>
+                </summary>
+
+                <div class="patent-expanded-content">
+                    <div class="patent-details">
+                        <p>
+                            <strong>Application Number:</strong>
+                            <span class="patent-number">202641060327</span>
+                        </p>
+                        <p>
+                            <strong>Title:</strong>
+                            Automated Bi-Directional Ammikal Grinding Stone Using Linkage Mechanism
+                        </p>
+                    </div>
+
+                    <div class="patent-documents">
+                        <h3>Patent Documents</h3>
+                        <p class="patent-documents-description">
+                            View the technical drawings, patent application, and working prototype demonstration.
+                        </p>
+
+                        <div class="patent-document-grid">
+
+                            <!-- Detailed drawings -->
+                            <article class="patent-document-card">
+                                <div class="patent-document-icon" aria-hidden="true">📐</div>
+                                <h4>Detailed Drawings</h4>
+                                <p>Technical drawings of the bi-directional Ammikal grinding mechanism.</p>
+                                <a class="patent-document-btn"
+                                   href="assets/documents/DETAILED DRAWINGS.pdf"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    View Drawings PDF ↗
+                                </a>
+                            </article>
+
+                            <!-- Patent application -->
+                            <article class="patent-document-card">
+                                <div class="patent-document-icon" aria-hidden="true">📄</div>
+                                <h4>Patent Application</h4>
+                                <p>Application document associated with application number 202641060327.</p>
+                                <a class="patent-document-btn"
+                                   href="assets/documents/Patent Application.pdf"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    View Application PDF ↗
+                                </a>
+                            </article>
+
+                            <!-- Working prototype -->
+                            <article class="patent-document-card patent-video-card">
+                                <div class="patent-document-icon" aria-hidden="true">🎬</div>
+                                <h4>Working Prototype</h4>
+                                <p>Watch the working model demonstration of the linkage mechanism.</p>
+
+                                <video class="patent-model-video"
+                                       controls
+                                       preload="metadata"
+                                       playsinline>
+                                    <source src="assets/videos/Ammikal Working prototype.mp4" type="video/mp4">
+                                    Your browser does not support embedded video.
+                                </video>
+
+                                <a class="patent-document-btn"
+                                   href="assets/videos/Ammikal Working prototype.mp4"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    Open Video Separately ↗
+                                </a>
+                            </article>
+
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </article>
+    </div>
+</section>
+
+
+<!-- =========================
+     CONTACT
+========================== -->
+<section class="page-section" id="contact" data-view="contact" hidden>
+    <div class="section-container">
+
+        <div class="section-heading">
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h1>Contact <span>Me</span></h1>
+            <p>For automotive engineering, EV technology, and professional opportunities.</p>
+        </div>
+
+        <div class="contact-grid">
+            <article class="content-card contact-card">
+                <h2>Email</h2>
+                <p>Reach me by email.</p>
+                <a href="mailto:cardozaryan04@gmail.com">cardozaryan04@gmail.com</a>
+            </article>
+
+            <article class="content-card contact-card">
+                <h2>Phone</h2>
+                <p>Connect with me by phone.</p>
+                <a href="tel:+919486184831">+91 9486184831</a>
+            </article>
+
+            <article class="content-card contact-card">
+                <h2>LinkedIn</h2>
+                <p>Visit my professional profile.</p>
+                <a href="https://www.linkedin.com/in/r-jude-ryan-cardoza-6a5846252/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Visit My LinkedIn Profile
+                </a>
+            </article>
+        </div>
+
+        <div class="content-card contact-message">
+            <h2>Interested in working together?</h2>
+            <p>
+                I welcome opportunities to learn, collaborate, and contribute
+                to automotive engineering and electric vehicle technology projects.
+            </p>
+            <a href="mailto:cardozaryan04@gmail.com?subject=Professional%20Opportunity"
+               class="btn btn-primary">
+                Send Me an Email
+            </a>
+        </div>
+
+    </div>
+</section>
+
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================== -->
+<footer class="site-footer">
+    <div class="section-container">
+        <p>
+            © <span id="currentYear">2026</span>
+            R Jude Ryan Cardoza. All rights reserved.
+        </p>
+        <p>Electric Vehicles · Vehicle dynamics · ADAS</p>
+    </div>
+</footer>
+
+
+<!-- =========================
+     NAVIGATION JAVASCRIPT
+========================== -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const navLinks = document.querySelectorAll("[data-page]");
+    const pageSections = document.querySelectorAll("[data-view]");
+    const menuToggle = document.getElementById("menuToggle");
+    const mainNav = document.getElementById("mainNav");
+    const currentYear = document.getElementById("currentYear");
+
+    function showPage(pageName, updateAddress = true) {
+        let targetPage = document.querySelector(
+            '[data-view="' + pageName + '"]'
+        );
+
+        if (!targetPage) {
+            pageName = "home";
+            targetPage = document.querySelector('[data-view="home"]');
+        }
+
+        if (!targetPage) {
+            console.error("No matching page section found:", pageName);
+            return;
+        }
+
+        pageSections.forEach(function (section) {
+            const isActive = section === targetPage;
+            section.hidden = !isActive;
+            section.classList.toggle("active", isActive);
+        });
+
+        navLinks.forEach(function (link) {
+            const isActive = link.dataset.page === pageName;
+
+            link.classList.toggle("active", isActive);
+
+            if (isActive) {
+                link.setAttribute("aria-current", "page");
+            } else {
+                link.removeAttribute("aria-current");
+            }
+        });
+
+        if (updateAddress) {
+            history.replaceState(null, "", "#" + pageName);
+        }
+
+        if (mainNav) {
+            mainNav.classList.remove("open");
+        }
+
+        if (menuToggle) {
+            menuToggle.setAttribute("aria-expanded", "false");
+        }
+
+        window.scrollTo({ top: 0, behavior: "auto" });
+    }
+
+    navLinks.forEach(function (link) {
+        link.addEventListener("click", function (event) {
+            event.preventDefault();
+            showPage(link.dataset.page);
+        });
+    });
+
+    if (menuToggle && mainNav) {
+        menuToggle.addEventListener("click", function () {
+            const isOpen = mainNav.classList.toggle("open");
+            menuToggle.setAttribute("aria-expanded", String(isOpen));
+        });
+    }
+
+    window.addEventListener("hashchange", function () {
+        showPage(window.location.hash.slice(1) || "home", false);
+    });
+
+    showPage(window.location.hash.slice(1) || "home", false);
+
+    if (currentYear) {
+        currentYear.textContent = new Date().getFullYear();
+    }
+});
+</script>
+
+</body>
+</html>
